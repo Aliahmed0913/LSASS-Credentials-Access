@@ -38,8 +38,14 @@ Credential-access investigation
 ## Key Findings
 ### 1. Suspicious Payload Execution
 winx64_payload.exe executed from:
+
  ` C:\Users\pedro.gustavo\Downloads\`
+ 
  <img width="1842" height="399" alt="winxxxsuspicous" src="https://github.com/user-attachments/assets/b19f77c7-4af9-49b6-aba6-87d805873656" />
  
  <img width="1749" height="379" alt="winxx" src="https://github.com/user-attachments/assets/3031f6b7-7e3c-4f55-ad36-240a5d3ea6e7" />
  The same process was later associated with discovery activity, network communication, file creation, and process access.
+
+### 2. Internal Network Activity
+telemetry showed communication with the internal host:
+`10.0.5.13:8080`
